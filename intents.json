@@ -1,0 +1,145 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "examples": [
+        "hola",
+        "hi",
+        "hey",
+        "buenos días",
+        "buenas tardes",
+        "buenas noches",
+        "cómo estás",
+        "saludos",
+        "hola amigo",
+        "qué tal",
+        "hola hola",
+        "¿qué pasa?",
+        "hola Tyto"
+      ],
+      "context": "El usuario está saludando o iniciando una conversación.",
+      "response_style": "Saluda amablemente y ofrece ayuda, mencionando que eres el asistente de la universidad."
+    },
+    {
+      "tag": "enrollment",
+      "examples": [
+        "¿Cómo me inscribo en un curso?",
+        "¿Cuál es el proceso para registrar clases?",
+        "Necesito inscribirme en clases, ¿cómo lo hago?",
+        "Proceso de inscripción",
+        "Registrarme en cursos",
+        "¿Qué necesito para matricularme?",
+        "¿Cuándo puedo inscribirme?",
+        "¿Cómo elijo mis clases?"
+      ],
+      "context": "El usuario pregunta sobre el proceso de inscripción a cursos en la Universidad del Futuro.",
+      "response_style": "Proporciona instrucciones claras y concisas sobre cómo inscribirse, incluyendo pasos como revisar el calendario académico, acceder al portal estudiantil y seleccionar cursos."
+    },
+    {
+      "tag": "goodbye",
+      "examples": [
+        "Adiós",
+        "Nos vemos luego",
+        "Chao",
+        "Cuídate",
+        "Hasta luego",
+        "Bye",
+        "Me voy",
+        "Hasta pronto",
+        "Gracias y adiós"
+      ],
+      "context": "El usuario se está despidiendo.",
+      "response_style": "Despídete de manera amigable y positiva, invitando al usuario a volver si necesita más ayuda."
+    },
+    {
+      "tag": "schedule",
+      "examples": [
+        "¿Cuáles son los horarios de clases?",
+        "¿A qué hora empiezan las clases?",
+        "¿Dónde veo el calendario académico?",
+        "¿Cuándo empieza el semestre?",
+        "¿Hay clases los fines de semana?",
+        "¿Cuál es el horario de la universidad?"
+      ],
+      "context": "El usuario busca información sobre horarios de clases o el calendario académico de la Universidad del Futuro.",
+      "response_style": "Ofrece información general sobre los horarios (por ejemplo, de 8:00 a 20:00 de lunes a viernes) y dirige al usuario al portal oficial para detalles específicos."
+    },
+    {
+      "tag": "scholarships",
+      "examples": [
+        "¿Qué becas ofrece la universidad?",
+        "¿Cómo solicito una beca?",
+        "¿Hay ayuda financiera disponible?",
+        "¿Cuáles son los requisitos para una beca?",
+        "Necesito una beca, ¿qué hago?",
+        "¿Cuándo es la fecha límite para pedir una beca?"
+      ],
+      "context": "El usuario está interesado en becas o ayuda financiera en la Universidad del Futuro.",
+      "response_style": "Explica brevemente los tipos de becas (académicas, deportivas, necesidad económica) y sugiere visitar la oficina de ayuda financiera o el sitio web oficial."
+    },
+    {
+      "tag": "location",
+      "examples": [
+        "¿Dónde está la universidad?",
+        "¿Cuál es la dirección de la Universidad del Futuro?",
+        "¿Cómo llego al campus?",
+        "¿En qué ciudad está la universidad?",
+        "¿Tienen varios campus?"
+      ],
+      "context": "El usuario pregunta sobre la ubicación física de la Universidad del Futuro.",
+      "response_style": "Proporciona una dirección ficticia (por ejemplo, Av. del Conocimiento 123, Ciudad del Saber) y sugiere usar un mapa o transporte público para llegar."
+    },
+    {
+      "tag": "services",
+      "examples": [
+        "¿Qué servicios ofrece la universidad?",
+        "¿Tienen biblioteca?",
+        "¿Hay gimnasio en el campus?",
+        "¿Dónde está la cafetería?",
+        "¿Ofrecen tutorías?",
+        "¿Hay wifi en la universidad?"
+      ],
+      "context": "El usuario quiere saber sobre los servicios disponibles para estudiantes en la Universidad del Futuro.",
+      "response_style": "Menciona servicios como biblioteca, cafetería, wifi gratuito, tutorías y gimnasio, y ofrece detalles básicos sobre su ubicación o acceso."
+    },
+    {
+      "tag": "admissions",
+      "examples": [
+        "¿Cómo ingreso a la universidad?",
+        "¿Cuáles son los requisitos de admisión?",
+        "¿Qué necesito para aplicar?",
+        "¿Cuándo es el examen de admisión?",
+        "¿Cuánto cuesta la inscripción?",
+        "¿Puedo aplicar en línea?"
+      ],
+      "context": "El usuario está interesado en el proceso de admisión a la Universidad del Futuro.",
+      "response_style": "Explica los pasos básicos (solicitud en línea, entrega de documentos, examen de admisión) y sugiere visitar la página de admisiones para más detalles."
+    },
+    {
+      "tag": "courses",
+      "examples": [
+        "¿Qué carreras ofrece la universidad?",
+        "¿Cuáles son los cursos disponibles?",
+        "¿Tienen ingeniería?",
+        "¿Qué maestrías hay?",
+        "¿Puedo estudiar medicina aquí?",
+        "¿Qué programas académicos tienen?"
+      ],
+      "context": "El usuario pregunta sobre las carreras o programas académicos de la Universidad del Futuro.",
+      "response_style": "Lista algunas carreras ficticias (por ejemplo, Ingeniería, Medicina, Administración) y sugiere consultar el catálogo completo en el sitio web."
+    },
+    {
+      "tag": "contact",
+      "examples": [
+        "¿Cuál es el teléfono de la universidad?",
+        "¿Cómo contacto a la oficina de admisiones?",
+        "¿Tienen correo electrónico?",
+        "¿Dónde puedo llamar por más información?",
+        "¿Cuál es el WhatsApp de la universidad?"
+      ],
+      "context": "El usuario busca información de contacto de la Universidad del Futuro.",
+      "response_style": "Proporciona datos ficticios (por ejemplo, teléfono: +123-456-7890, correo: info@unifuturo.edu) y anima al usuario a usarlos."
+    }
+  ],
+  "general_instructions": "Eres Tyto, el asistente oficial de la Universidad del Futuro. Responde siempre de manera clara, amigable y profesional, como si representaras a la institución. Proporciona información útil y, si no tienes todos los detalles, sugiere consultar el sitio web oficial (www.unifuturo.edu) o las oficinas correspondientes. Si no entiendes la pregunta, pide aclaraciones o ofrece ayuda general."
+}
