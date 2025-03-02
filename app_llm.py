@@ -1,6 +1,6 @@
 # Bibliotecas y Modulos
 from flask import Flask, render_template, request, jsonify, redirect, url_for, session, make_response
-from chatlstm import get_response
+from chat_lstm import get_response
 from datetime import datetime
 import json
 import os
