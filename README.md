@@ -8,6 +8,10 @@ pip install -r requirements.txt
 
 python -c "import nltk; nltk.download('punkt')" 
 
+python
+>>> import nltk
+>>> nltk.download('punkt')
+
 pip install flask requests bcrypt
 
 pip install transformers[torch] 
